@@ -1,0 +1,21 @@
+.in-le {
+  display: flex;
+  padding: 10px;
+  margin: 5px;
+  background-color: lightgray;
+  color: red;
+}
+.name {
+  padding-right: 10px;
+}
+.space-betwween {
+  display: flex;
+  justify-content: space-between;
+}
+.length {
+  color: white;
+  background-color: red;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+}

@@ -1,0 +1,50 @@
+.route-container {
+  display: flex;
+}
+
+.cards {
+  margin: 25px;
+}
+
+.para {
+  max-width: 200px;
+}
+
+.icons-with-text {
+  display: flex;
+}
+.icon-text {
+  display: flex;
+  margin: 10px;
+}
+
+.dis {
+  display: flex;
+  margin-right: 20px;
+}
+
+.arrow {
+  margin-top: 100px;
+  color: red;
+}
+.viewmore {
+  border-color: red;
+  background-color: white;
+  color: red;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+.quotes {
+  border-color: red;
+  background-color: red;
+  color: white;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.icon {
+  color: red;
+}
+.id {
+  color: red;
+}

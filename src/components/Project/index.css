@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+}
+.i-te {
+  display: flex;
+  border-left: 2px solid red;
+  padding: 5px;
+}
+
+.i-t {
+  display: flex;
+  padding: 5px;
+  margin: 10px;
+}
+.header {
+  margin-left: 50px;
+}
+
+.icon {
+  margin: 20px;
+}
+
+.inventory {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.black-button {
+  width: 200px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.heading {
+  padding-left: 50px;
+}
+.i-details {
+  padding-left: 20px;
+}

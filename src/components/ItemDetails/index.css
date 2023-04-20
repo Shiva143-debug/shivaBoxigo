@@ -1,0 +1,19 @@
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.button {
+  margin-right: 100px;
+}
+
+.Details {
+  display: flex;
+}
+.House-Details {
+  margin-right: 50px;
+}
+
+.color {
+  color: red;
+}
