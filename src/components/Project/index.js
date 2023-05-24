@@ -3,10 +3,14 @@ import {Component} from 'react'
 import {MdRemoveShoppingCart} from 'react-icons/md'
 import {CgProfile} from 'react-icons/cg'
 import {RiChatQuoteFill, RiLogoutCircleRFill} from 'react-icons/ri'
+
 import Card from '../Card'
 
+// var cors = require('cors')
 import ItemDetails from '../ItemDetails'
 import Inventory from '../Inventory'
+
+// const cors = require('cors')
 
 class Project extends Component {
   state = {List: [], activeTabId: ''}
@@ -54,6 +58,7 @@ class Project extends Component {
 
   getFilteredApps = () => {
     const {activeTabId, List} = this.state
+    console.log(List)
     const filteredApps = List.filter(
       eachAppDetails => eachAppDetails.estimateId === activeTabId,
     )
@@ -64,7 +69,7 @@ class Project extends Component {
     const {List, activeTabId} = this.state
 
     const filteredApps = this.getFilteredApps()
-    console.log(filteredApps)
+    // console.log(filteredApps)
     return (
       <div>
         {activeTabId === '' ? (
@@ -146,4 +151,5 @@ class Project extends Component {
     )
   }
 }
+
 export default Project

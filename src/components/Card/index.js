@@ -24,7 +24,7 @@ const Card = props => {
     distance,
     dateCreated,
   } = productData
-
+  console.log(productData)
   const onClickTabItem = () => {
     clickTabItem(estimateId)
   }

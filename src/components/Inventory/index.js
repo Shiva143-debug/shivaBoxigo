@@ -4,8 +4,8 @@ import {BsChevronDown} from 'react-icons/bs'
 const Inventory = props => {
   const {Details} = props
   const {items} = Details
-
-  console.log(items.inventory[0])
+  console.log(Details)
+  //   console.log(items.inventory[0])
   return (
     <div>
       <div className="in-le space-betwween">
